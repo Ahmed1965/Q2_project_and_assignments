@@ -2,8 +2,8 @@
 
 
 
-function toggle(){
-    var toggle = document.getElementById('skills')
+function show(){
+    var toggle = document.getElementsByClassName('skills')[0];
 
     if(toggle.style.display === 'none'){
         toggle.style.display = 'block'
